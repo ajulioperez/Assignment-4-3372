@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julio's Blog</title>
+
+    <!-- font awesome icons cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    <!-- swiper slider css file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.css" integrity="sha512-m3pAvNriL711NMlhkZHK6K4Tu2/RjtrzyjxZU8mlAbxxoDoURy27KajN1LGTLeEEPvaN12mKAgSCrYEwF9y0jA==" crossorigin="anonymous" />
+
+    <!-- custom style.css file -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <!-- Header -->
+       <header id="header" class="shadow bg-light">
+           <nav class="container navbar">
+               <a href="/index.html" class="nav-brand text-dark">
+                    WeBlog
+                </a>
+
+                <!-- toggle button -->
+                <button class="toggle-button">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
+
+                <!-- collapse on toggle button click -->
+                <div class="collapse">
+                    <ul class="navbar-nav">
+                        <a href="/index.html" class="nav-link">Home</a>
+                        <a href="/Posts.html" class="nav-link">Blog Posts</a>
+                        <a href="/Create.html" class="nav-link">Create</a>
+                        <a href="/Membership.html" class="nav-link">Membership</a>
+                        <a href="/Newsetter.html" class="nav-link">Newsletter</a>
+                        <a href="/Donations.html" class="nav-link">Donations</a>
+                    </ul>
+                </div>
+
+                  <!-- collapse on toggle button click -->
+                  <div class="collapse">
+                      <ul class="navbar-nav">
+                            <div class="search-box">
+                                <a href="#" class="nav-link"><i class="fas fa-search"></i></a>
+                            </div>
+                            <a href="https://www.facebook.com/wtamu" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.twitter.com/wtamu" class="nav-link"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/wtamu" class="nav-link"><i class="fab fa-instagram"></i></a>
+                      </ul>
+                  </div>
+           </nav>
+       </header>
+    <!-- .Header -->
+
+    <!-- Main Site -->
+       <main id="site-main">
+
+            <!-- Post Content -->
+                <section class="container">
+                   <h3 class="text-center display-1 secondary-title py-2">Make a Donation</h3>
+                   <form action="/action_page.php">
+                            
+                    <div class="comment-form">
+                        <div class="d-flex justify-content-between flex-wrap">
+                            <input type="text" class="form-control" placeholder="First Name"><br>
+                            <input type="text" class="form-control" placeholder="Last Name"><br>
+                            <input type="email" class="form-control" placeholder="Email"><br>
+                        </div>
+
+                        <div class="d-flex justify-content-center flex-wrap">
+                            <input type="radio" name="radio" id="radio" value="$30">
+                            <label for="radio">$30</label>
+                        </div><br>
+                        
+                        <div class="d-flex justify-content-center flex-wrap">
+                            <input type="radio" name="radio" id="radio" value="$60">
+                            <label for="radio">$60</label>
+                        </div><br>
+
+                        <div class="d-flex justify-content-center flex-wrap">
+                            <input type="radio" name="radio" id="radio" value="$90">
+                            <label for="radio">$90</label>
+                        </div><br>
+
+                        <div class="d-flex justify-content-center flex-wrap">
+                            <input type="text" name="Other" id="Other" value="Other">
+                            <label for="text"></label>
+                        </div><br>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary display-2 text-light mt-2">Submit</button>
+                        </div>
+                                                            
+                    </div>
+
+                </form>
+
+                   </div>
+                    
+                </section>
+            <!-- .Post Content -->
+
+           
+    <!-- .Main Site -->
+
+    <!-- footer -->
+    <footer id="footer">
+                        
+        <!-- copyrights  -->
+        <div class="copyrights">
+            <p class="text-center text-secondary display-2">
+                © 2022 Personal Blog Theme. All rights reserved.
+            </p>
+        </div>
+    
+    </footer>
+    <!-- .footer -->
+
+
+    <!-- masonry libray for horizontal grid -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous"></script>
+    
+    <!-- custom javascript main.js file -->
+    <script src="main.js"></script>
+</body>
+</html>
